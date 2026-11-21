@@ -6,15 +6,6 @@
   --tag-bg:rgba(139,92,246,.12);--tag-text:#c4b5fd;--tag-border:rgba(139,92,246,.25);
   --blob:.28;color-scheme:dark;
 }
-@media (prefers-color-scheme:light){
-  :root:not([data-theme="dark"]){
-    --bg:#f6f6fb;--surface:rgba(20,20,40,.04);--border:rgba(20,20,40,.12);
-    --text:#14141f;--muted:#55556b;--a3:#0e7490;
-    --nav-bg:rgba(255,255,255,.8);--chip:rgba(20,20,40,.05);
-    --tag-bg:rgba(139,92,246,.1);--tag-text:#6d28d9;--tag-border:rgba(139,92,246,.3);
-    --blob:.14;color-scheme:light;
-  }
-}
 :root[data-theme="light"]{
   --bg:#f6f6fb;--surface:rgba(20,20,40,.04);--border:rgba(20,20,40,.12);
   --text:#14141f;--muted:#55556b;--a3:#0e7490;
